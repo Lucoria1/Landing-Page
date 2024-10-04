@@ -30,9 +30,9 @@ a {
 
 .links {
     display: flex;
-    font-size: 18px;
+    font-size: 15px;
     color: #E5E7EB;
-    gap: 10px
+    gap: 15px
 }
 
 .img-ph {
@@ -55,7 +55,8 @@ a {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding-top: 20px;
+    padding-top: 80px;
+    padding-bottom: 60px;
     }
 
 .desc h1{
