@@ -3,6 +3,19 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    margin: 0px;
+    font-family: Roboto;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.logo {
+ font-size: 24px;   
+ color: #F9FAF8;
+ font-weight: 900;
 }
 
 .header-top {
@@ -10,9 +23,45 @@ body {
     justify-content: space-between;
 }
 
+a {
+   color: white; 
+   text-decoration: none;
+}
+
+.links {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 10px
+}
+
+.img-ph {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    }
+.desc {
+    flex: 1 1 auto;
+}
+
+.img-ph h1{
+    margin: 20px;
+    font-size: 20px;
+}
+
 .desc-img {
     display: flex;
     justify-content: space-between;
+    gap: px;
+    padding: 50px;
+}
+
+.desc h1{
+font-size: 48px;
+color: #F9FAF8;
+font-weight: 900;
 }
 
 .top-bottom {
