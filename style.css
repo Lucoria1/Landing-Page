@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
