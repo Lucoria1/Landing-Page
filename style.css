@@ -87,14 +87,17 @@ margin: 0;
     width: 138px;
     border: 2px;
     border-style: solid;
-    border-color: black;
-    display: flex;    
+    border-color: #3882F6;
+    display: flex;
+    border-radius: 10px;    
 }
 
 .box-text {
     text-wrap: wrap;
     text-align: center;
     width: 140px;
+    font-size: 15px;
+    color: rgb(75, 74, 74);
 }
 .name {
     display: flex;
@@ -129,6 +132,12 @@ margin: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.top-top h1 {
+font-size: 36px;    
+color: #1F2937;
+font-weight: 900;
 }
 
 .tb-c {
