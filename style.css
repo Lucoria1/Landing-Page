@@ -99,10 +99,6 @@ margin: 0;
     font-size: 15px;
     color: rgb(75, 74, 74);
 }
-.name {
-    display: flex;
-    justify-content: flex-end;
-}
 
 .bottom {
     display: flex;
@@ -152,4 +148,34 @@ font-weight: 900;
 
 .tb-right {
     order: 2;
+}
+
+.middle {
+display: flex;
+background-color: #E5E7EB;
+justify-content: center;
+}
+
+.words {
+text-align: center;
+text-wrap: wrap;
+height: 200px;
+width: 700px;
+font-size: 36px;
+font-style: italic;
+font-weight: 300;
+color: #1F2937;
+margin: 0;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.quote {
+    padding: 50px;
 }
